@@ -1,0 +1,116 @@
+body {
+    font-family: "Montserrat", serif; 
+    line-height: 1.6;
+    color: #333;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background: #f5f5f5;
+    color: rgb(18, 17, 17);
+    padding: 15px;
+}
+
+.logo {
+    width: 150px;
+
+    margin-right: 15px;
+}
+.lista-libros {
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+/* Contenedor en dos columnas */
+.lista-libros ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+/* Cada categoría ocupa una columna */
+.lista-libros > ul > li {
+    flex: 1 1 calc(50% - 10px); /* Dos columnas con espacio */
+}
+
+/* Mantener títulos de categorías en negrita */
+.lista-libros > ul > li strong {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para los enlaces */
+.lista-libros a {
+    text-decoration: none;
+    color: #007bff;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.lista-libros a:hover {
+    text-decoration: underline;
+}
+
+/* Responsivo: si la pantalla es más pequeña, usar una columna */
+@media (max-width: 600px) {
+    .lista-libros > ul > li {
+        flex: 1 1 100%;
+    }
+    }
+
+.buscador {
+    text-align: center;
+    margin: 20px;
+}
+
+#busqueda {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.detalle-libros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: space-between; /* Distribuir elementos en dos columnas */
+}
+
+/* Cada libro ocupa el 48% del ancho para dejar espacio entre columnas */
+.libro {
+    width: 48%;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Asegura que padding y border no afecten el tamaño */
+}
+
+/* Responsivo: en pantallas pequeñas, una columna */
+@media (max-width: 768px) {
+    .libro {
+        width: 100%; /* Ocupa toda la pantalla en dispositivos pequeños */
+    }
+}
+.ver-mas {
+    display: none;
+    color: #555;
+}
+
+.btn-ver-mas {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+}
