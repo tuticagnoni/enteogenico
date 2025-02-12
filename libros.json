@@ -1,0 +1,30 @@
+[
+    {
+        "id": "visiones",
+        "titulo": "Las Visiones y los Mundos",
+        "autor": "Pedro Favaron",
+        "paginas": 347,
+        "resumen": "Tesis doctoral de literatura, donde se analiza las implicancias pragmáticas y cotidianas de mitos, cuentos, cantos y ritos de distintas etnias amazónicas, cuya constante es el diálogo permanente con los espíritus, y las medicinas visionarias. <br> Es una obra que trata sobre la naturaleza humana. Pedro Favaron no sólo es académico, docente, y director de la unidad de investigación en Ciencias Sociales de la Universidad de Ucayali, Perú, sino que además es comunero empadronado de la comunidad Shipibo Konibo de Santa Clara, en la cual se inició y oficia como médico visionario, y donde fundó la clínica Nishi Nete. Con este libro, nos acercamos a la medicina amazónica-ayahuasquera de la mano de un chamán y un intelectual a la vez.",
+        "tags": ["amazonía", "mitos", "ayahuasca", "literatura"],
+        "imagen": "img/visiones.jpg"
+    },
+    {
+        "id": "articulos",
+        "titulo": "Artículos Inéditos",
+        "autor": "Jacques Mabit",
+        "paginas": 235,
+        "resumen": "Artículos seleccionados sobre medicina tradicional amazónica...",
+        "tags": ["medicina", "amazonía", "terapia"],
+        "imagen": "img/articulos.jpg"
+    },
+    {
+        "id": "articulos",
+        "titulo": "Artículos Inéditos",
+        "autor": "Jacques Mabit",
+        "paginas": 235,
+        "resumen": "Artículos seleccionados sobre medicina tradicional amazónica...",
+        "tags": ["medicina", "amazonía", "terapia"],
+        "imagen": "img/articulos.jpg"
+    }
+    
+]
