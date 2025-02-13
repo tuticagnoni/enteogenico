@@ -4,8 +4,21 @@
         "titulo": "Las Visiones y los Mundos",
         "autor": "Pedro Favaron",
         "paginas": 347,
-        "resumen": "Tesis doctoral de literatura, donde se analiza las implicancias pragmáticas y cotidianas de mitos, cuentos, cantos y ritos de distintas etnias amazónicas, cuya constante es el diálogo permanente con los espíritus, y las medicinas visionarias. <br> Es una obra que trata sobre la naturaleza humana. Pedro Favaron no sólo es académico, docente, y director de la unidad de investigación en Ciencias Sociales de la Universidad de Ucayali, Perú, sino que además es comunero empadronado de la comunidad Shipibo Konibo de Santa Clara, en la cual se inició y oficia como médico visionario, y donde fundó la clínica Nishi Nete. Con este libro, nos acercamos a la medicina amazónica-ayahuasquera de la mano de un chamán y un intelectual a la vez.",
+        "categoria": "Títulos Originales",
+        "resumenCorto": "Tesis doctoral de literatura, donde se analiza las implicancias pragmáticas y cotidianas de mitos, cuentos, cantos y ritos de distintas etnias amazónicas, cuya constante es el diálogo permanente con los espíritus, y las medicinas visionarias. Es una obra que trata sobre la naturaleza humana.",
+        "resumenCompleto": "Tesis doctoral de literatura, donde se analiza las implicancias pragmáticas y cotidianas de mitos, cuentos, cantos y ritos de distintas etnias amazónicas, cuya constante es el diálogo permanente con los espíritus, y las medicinas visionarias. Es una obra que trata sobre la naturaleza humana. <br> <b>Pedro Favaron</b> no sólo es académico, docente, y director de la unidad de investigación en Ciencias Sociales de la Universidad de Ucayali, Perú, sino que además es comunero empadronado de la comunidad Shipibo Konibo de Santa Clara, en la cual se inició y oficia como médico visionario, y donde fundó la clínica Nishi Nete. Con este libro, nos acercamos a la medicina amazónica-ayahuasquera de la mano de un chamán y un intelectual a la vez.",
         "tags": ["amazonía", "mitos", "ayahuasca", "literatura"],
+        "imagen": "img/visiones.jpg"
+    },
+    {
+        "id": "plantas-medicina",
+        "titulo": "Plantas Medicina y Clínica Terapéutica",
+        "autor": "Jacques Mabit",
+        "paginas": 0,
+        "categoria": "Títulos Originales",
+        "resumenCorto": "En este libro, avalado y reconocido por el autor, hay distintos artículos seleccionados por la institución Takiwasi, que dan cuenta de la complejidad y riqueza de la medicina tradicional amazónica, y de su potencial terapéutico en nuestra cultura.",
+        "resumenCompleto": "En este libro, avalado y reconocido por el autor, hay distintos artículos seleccionados por la institución Takiwasi, que dan cuenta de la complejidad y riqueza de la medicina tradicional amazónica, y de su potencial terapéutico en nuestra cultura.<br> <b>Jacques Mabit</b> es un médico francés, fundador del Centro Terapéutico Takiwasi, para el tratamiento y rehabilitación de toxicómanxs. Allí se llevan a cabo terapias y procesos de trabajo interior con técnicas de psicoterapia occidental y de medicina amazónica, con uso de plantas visionarias. Jacques está hace más de 30 años en la selva, donde se inició y aprendió guiado por maestros curanderos.",
+        "tags": ["medicina", "amazonía", "terapia"],
         "imagen": "img/visiones.jpg"
     },
     {
@@ -13,18 +26,72 @@
         "titulo": "Artículos Inéditos",
         "autor": "Jacques Mabit",
         "paginas": 235,
-        "resumen": "Artículos seleccionados sobre medicina tradicional amazónica...",
+        "categoria": "Títulos Originales",
+        "resumenCorto": "Segunda recopilación de artículos del Dr. Mabit, seleccionados esta vez por nuestra propia editorial, en función de acercar una comprensión etnobotánica a la vez que antropológica, psicológica y espiritual del uso de Plantas Maestras, Sagradas y Enteógenas.",
+        "resumenCompleto": "Segunda recopilación de artículos del Dr. Mabit, seleccionados esta vez por nuestra propia editorial, en función de acercar una comprensión etnobotánica a la vez que antropológica, psicológica y espiritual del uso de Plantas Maestras, Sagradas y Enteógenas. <br> En los textos se revisita el uso del Cannabis, la Coca, el Tabaco y especialmente el Ayahuasca, con una mirada lúcida, crítica y social.",        
         "tags": ["medicina", "amazonía", "terapia"],
-        "imagen": "img/articulos.jpg"
+        "imagen": "img/visiones.jpg"
     },
     {
-        "id": "articulos",
-        "titulo": "Artículos Inéditos",
-        "autor": "Jacques Mabit",
-        "paginas": 235,
-        "resumen": "Artículos seleccionados sobre medicina tradicional amazónica...",
+        "id": "ensayos-alterados",
+        "titulo": "Ensayos Alternativos de Conciencia",
+        "autor": "Antología del Congreso Universitario de Sustancias Psicoactivas (UNAM)",
+        "paginas": 219,
+        "categoria": "Títulos Originales",
+        "resumenCorto": "Tesis doctoral sobre mitos y medicinas visionarias...",
+        "resumenCompleto": "Esta obra es oriunda de México, publicada en 2019 por Lunaria Ediciones, y llega a nuestras manos en una suerte de intercambio editorial. Reúne una selección de ponencias destacadas, realizadas en el Congreso sobre Sustancias Psicoactivas de la UNAM, organizada por el grupo de investigación multidisciplinar ViaSynapsis.<br> Se aborda el fenómeno de las drogas y enteógenos trasversalmente, desde lo político, la filosofía, los nuevos paradigmas científicos, médicos y también desde la antropología. Una obra actual, que nos recuerda qué México es cuna indiscutible de enteógenos y chamanismos en el mundo.",        
         "tags": ["medicina", "amazonía", "terapia"],
-        "imagen": "img/articulos.jpg"
+        "imagen": "img/visiones.jpg"
+    },
+    {
+        "id": "jaguar",
+        "titulo": "La mirada del Jaguar",
+        "autor": "Viveiros de Castro",
+        "paginas": 288,
+        "categoria": "Otros",
+        "resumenCorto": "Desde los confines de la antropología sudamericana Eduardo V. De Castro nos asesta un par de cachetazos (moderados pero certeros) para dislocar nuestra mirada y, al menos por momentos, percibir el mundo como un-Otro (Otro mundo, Otro ser). ",
+        "resumenCompleto": "Desde los confines de la antropología sudamericana Eduardo V. De Castro nos asesta un par de cachetazos (moderados pero certeros) para dislocar nuestra mirada y, al menos por momentos, percibir el mundo como un-Otro (Otro mundo, Otro ser). <br>En lenguaje coloquial, sin el rigor expositivo de una tesis, pero en un nivel tan intensivo de conversación que arrollaría a cualquier filosofía de sobremesa, se nos presentan entremezclados, mestizados, conceptos de diversas áreas, a la vez que un lenguaje propio que intenta rescatar “el punto de vista sobre el punto de vista” que tienen lxs indígenas americanos.",        "tags": ["medicina", "amazonía", "terapia"],
+        "imagen": "img/jaguar.png"
+    },
+    {
+        "id": "manjar",
+        "titulo": "El Manjar de los Dioses",
+        "autor": "Terence McKenna",
+        "paginas": 260,
+        "categoria": "Otros",
+        "resumenCorto": "Una versión de la evolución del cerebro y la conciencia del homo sapiens, vista a través de las drogas que consumimos. Pone como protagonista al consumo de enteógenos (y particularmente, los hongos psilocybes) a lo largo de la historia humana.",
+        "resumenCompleto": "Una versión de la evolución del cerebro y la conciencia del homo sapiens, vista a través de las drogas que consumimos. Pone como protagonista al consumo de enteógenos (y particularmente, los hongos psilocybes) a lo largo de la historia humana. <br><b>Terence Mckenna</b> fue etnobotánico, disertante, activista y probablemente uno de los psiconautas más experimentados. Sus reflexiones desbordan lo estrictamente farmacológico y los usos rituales de distintas etnias, alcanzando un grado de análisis filosófico y cultural.",        "tags": ["medicina", "amazonía", "terapia"],
+        "imagen": "img/manjar.jpg"
+    },
+    {
+        "id": "nueva-consc",
+        "titulo": "La Nueva Conciencia Psicodélica",
+        "autor": "Terence McKenna",
+        "paginas": 362,
+        "categoria": "Otros",
+        "resumenCorto": "Conjunto de entrevistas, ensayos, artículos e hipótesis sobre la evolución humana, estados de conciencia, realidad virtual, ovnis y extraterrestres, hongos y tribus ayahuasqueras, entre otros tópicos, abordados por el vocero del underground psicodélico.",
+        "resumenCompleto": "Conjunto de entrevistas, ensayos, artículos e hipótesis sobre la evolución humana, estados de conciencia, realidad virtual, ovnis y extraterrestres, hongos y tribus ayahuasqueras, entre otros tópicos, abordados por el vocero del underground psicodélico.",        "tags": ["medicina", "amazonía", "terapia"],
+        "imagen": "img/nuevaconsciencia.png"
+    },
+    {
+        "id": "redoculta",
+        "titulo": "La Red Oculta de la Vida",
+        "autor": "Merlin Sheldrake",
+        "paginas": 344,
+        "categoria": "Otros",
+        "resumenCorto": "Ha llegado la hora de descubrir el oculto y fascinante mundo de los hongos, formas de vida extrañas y maravillosas que nos obligan a repensar el funcionamiento de la vida. ",
+        "resumenCompleto": "Ha llegado la hora de descubrir el oculto y fascinante mundo de los hongos, formas de vida extrañas y maravillosas que nos obligan a repensar el funcionamiento de la vida. <br>Al proporcionar a los humanos pan, alcohol y medicamentos, han cambiado la historia de nuestra especie, mientras que su capacidad para digerir plástico, explosivos, pesticidas y petróleo crudo se aplica en el campo de las nuevas tecnologías.",        "tags": ["medicina", "amazonía", "terapia"],
+        "imagen": "img/redoculta.jpg"
+    },
+    {
+        "id": "serpiente",
+        "titulo": "La Serpiente Cósmica",
+        "autor": "Jeremy Narby",
+        "paginas": 344,
+        "categoria": "Otros",
+        "resumenCorto": "Un ensayo que expone la complejidad del fenómeno del chamanismo amazónico en una lectura ligera, atrapante y brillantemente comprensible. Lo consideramos uno de los escritos que más claridad hecha sobre las cosmovisiones y saberes ancestrales, a la luz de la ciencia moderna.",
+        "resumenCompleto": "Un ensayo que expone la complejidad del fenómeno del chamanismo amazónico en una lectura ligera, atrapante y brillantemente comprensible. Lo consideramos uno de los escritos que más claridad hecha sobre las cosmovisiones y saberes ancestrales, a la luz de la ciencia moderna. <br>El autor establece notables conexiones entre el conocimiento detentado por los pueblos indígenas y los hallazgos de la biología molecular. Escrito con notable meticulosidad, apasionamiento, y sinceridad, resultando una lectura sumamente recomendable.",        "tags": ["medicina", "amazonía", "terapia"],
+        "imagen": "img/redoculta.jpg"
     }
     
 ]

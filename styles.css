@@ -1,24 +1,114 @@
+/* General */
 body {
-    font-family: "Montserrat", serif; 
-    line-height: 1.6;
-    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    box-sizing: border-box;
+    overflow-x: hidden; /* Elimina scroll horizontal no deseado */
 }
 
-header {
+/* Menú */
+.menu {
+    background-color: rgb(255, 255, 255);
+    color: rgb(9, 8, 8);
+    padding: 10px 20px;
+    top: 0;
+    z-index: 1000;
+}
+
+.menu-container {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    background: #f5f5f5;
-    color: rgb(18, 17, 17);
-    padding: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.logo {
-    width: 150px;
-
-    margin-right: 15px;
+.menu .logo img {
+    width: 80px;
 }
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: rgb(9, 8, 8);
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links ul li a:hover {
+    color: #f3b431;
+}
+
+.social img {
+    width: 25px;
+    transition: transform 0.3s ease;
+}
+
+.social img:hover {
+    transform: scale(1.2);
+}
+
+/* Responsivo para menú: columna en pantallas pequeñas */
+@media (max-width: 768px) {
+    .menu-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/* Footer */
+.footer {
+    background-color: rgb(255, 255, 255);
+    color: rgb(9, 8, 8);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-logo img {
+    width: 80px;
+}
+
+.footer-social a img {
+    width: 25px;
+    transition: transform 0.3s ease;
+}
+
+.footer-social a img:hover {
+    transform: scale(1.2);
+}
+
+.footer-text p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.footer-text p:hover {
+    color: #f3b431;
+}
+
+/* Listas de libros */
 .lista-libros {
     background: white;
     padding: 20px;
@@ -26,7 +116,7 @@ header {
     border-radius: 5px;
 }
 
-/* Contenedor en dos columnas */
+/* Contenedor de listas responsivo */
 .lista-libros ul {
     display: flex;
     flex-wrap: wrap;
@@ -35,16 +125,15 @@ header {
     list-style: none;
 }
 
-/* Cada categoría ocupa una columna */
 .lista-libros > ul > li {
     flex: 1 1 calc(50% - 10px); /* Dos columnas con espacio */
 }
 
-/* Mantener títulos de categorías en negrita */
-.lista-libros > ul > li strong {
-    display: block;
-    font-size: 18px;
-    margin-bottom: 10px;
+/* Responsivo: si la pantalla es más pequeña, usar una columna */
+@media (max-width: 768px) {
+    .lista-libros > ul > li {
+        flex: 1 1 100%; /* Una columna en pantallas pequeñas */
+    }
 }
 
 /* Estilos para los enlaces */
@@ -59,92 +148,86 @@ header {
     text-decoration: underline;
 }
 
-/* Responsivo: si la pantalla es más pequeña, usar una columna */
-@media (max-width: 600px) {
-    .lista-libros > ul > li {
-        flex: 1 1 100%;
-    }
-    }
-
+/* Buscador */
 .buscador {
     text-align: center;
     margin: 20px;
 }
 
-#busqueda {
-    width: 80%;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+.buscador-personalizado {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 10px 15px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
     font-size: 16px;
+    color: #333;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
+.buscador-personalizado:focus {
+    border-color: #f3b431;
+    box-shadow: 0 0 8px rgba(243, 180, 49, 0.5);
+    outline: none;
+}
+
+.buscador-personalizado::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+/* Detalles de libros */
 .detalle-libros {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
-    justify-content: space-between; /* Distribuir elementos en dos columnas */
+    justify-content: space-between; /* Dos columnas */
 }
 
-/* Cada libro ocupa el 48% del ancho para dejar espacio entre columnas */
 .libro {
-    width: 48%;
+    width: 48%; /* Ocupa casi la mitad del ancho en dos columnas */
     background: white;
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
-    box-sizing: border-box; /* Asegura que padding y border no afecten el tamaño */
+    box-sizing: border-box;
 }
 
-/* Responsivo: en pantallas pequeñas, una columna */
+/* Responsivo: en pantallas pequeñas, una sola columna */
 @media (max-width: 768px) {
+    .detalle-libros {
+        justify-content: center;
+    }
+
     .libro {
-        width: 100%; /* Ocupa toda la pantalla en dispositivos pequeños */
+        width: 100%; /* Una columna completa */
     }
 }
-.ver-mas {
-    display: none;
+
+/* Resumen del libro */
+.resumen {
+    margin-top: 10px;
+    line-height: 1.5;
+    font-size: 14px;
     color: #555;
 }
 
-.btn-ver-mas {
-    background: none;
+.resumen .btn-ver-mas {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 5px 10px;
+    background-color: #f3b431;
+    color: white;
     border: none;
-    color: #007bff;
+    border-radius: 5px;
     cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
 }
 
-/*menu*/
-.menu {
-    overflow: hidden; /* Esconde contenido desbordado */
-    max-height: 0; /* Altura inicial oculta */
-    transition: max-height 0.3s ease-out; /* Animación */
-    background-color: #f5f5f5;
-}
-
-.menu ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.menu ul li {
-    padding: 10px 20px;
-    border-bottom: 1px solid #ddd;
-}
-
-.menu ul li a {
-    text-decoration: none;
-    color: #333;
-}
-
-.menu.active {
-    max-height: 300px; /* Altura suficiente para mostrar las secciones */
-}
-
-.hamburguesa {
-    font-size: 24px;
-    cursor: pointer;
-    user-select: none; /* Evita seleccionar el ícono */
+.resumen .btn-ver-mas:hover {
+    background-color: #d89329;
 }
