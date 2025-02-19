@@ -18,7 +18,7 @@
         "categoria": "Títulos Originales",
         "resumenCorto": "En este libro, avalado y reconocido por el autor, hay distintos artículos seleccionados por la institución Takiwasi, que dan cuenta de la complejidad y riqueza de la medicina tradicional amazónica, y de su potencial terapéutico en nuestra cultura.",
         "resumenCompleto": "En este libro, avalado y reconocido por el autor, hay distintos artículos seleccionados por la institución Takiwasi, que dan cuenta de la complejidad y riqueza de la medicina tradicional amazónica, y de su potencial terapéutico en nuestra cultura.<br> <b>Jacques Mabit</b> es un médico francés, fundador del Centro Terapéutico Takiwasi, para el tratamiento y rehabilitación de toxicómanxs. Allí se llevan a cabo terapias y procesos de trabajo interior con técnicas de psicoterapia occidental y de medicina amazónica, con uso de plantas visionarias. Jacques está hace más de 30 años en la selva, donde se inició y aprendió guiado por maestros curanderos.",
-        "tags": ["medicina", "amazonía", "terapia"],
+        "tags": ["takiwasi", "amazonía", "terapia", "plantas-visionarias"],
         "imagen": "img/visiones.jpg"
     },
     {
@@ -29,7 +29,7 @@
         "categoria": "Títulos Originales",
         "resumenCorto": "Segunda recopilación de artículos del Dr. Mabit, seleccionados esta vez por nuestra propia editorial, en función de acercar una comprensión etnobotánica a la vez que antropológica, psicológica y espiritual del uso de Plantas Maestras, Sagradas y Enteógenas.",
         "resumenCompleto": "Segunda recopilación de artículos del Dr. Mabit, seleccionados esta vez por nuestra propia editorial, en función de acercar una comprensión etnobotánica a la vez que antropológica, psicológica y espiritual del uso de Plantas Maestras, Sagradas y Enteógenas. <br> En los textos se revisita el uso del Cannabis, la Coca, el Tabaco y especialmente el Ayahuasca, con una mirada lúcida, crítica y social.",        
-        "tags": ["medicina", "amazonía", "terapia"],
+        "tags": ["takiwasi", "amazonía", "terapia", "plantas-visionarias", "etnobotánica", "cannabis", "coca", "tabaco", "ayahuasca"],
         "imagen": "img/visiones.jpg"
     },
     {
@@ -40,7 +40,7 @@
         "categoria": "Títulos Originales",
         "resumenCorto": "Tesis doctoral sobre mitos y medicinas visionarias. Esta obra es oriunda de México, publicada en 2019 por Lunaria Ediciones, y llega a nuestras manos en una suerte de intercambio editorial.",
         "resumenCompleto": "Tesis doctoral sobre mitos y medicinas visionarias. Esta obra es oriunda de México, publicada en 2019 por Lunaria Ediciones, y llega a nuestras manos en una suerte de intercambio editorial. Reúne una selección de ponencias destacadas, realizadas en el Congreso sobre Sustancias Psicoactivas de la UNAM, organizada por el grupo de investigación multidisciplinar ViaSynapsis.<br> Se aborda el fenómeno de las drogas y enteógenos trasversalmente, desde lo político, la filosofía, los nuevos paradigmas científicos, médicos y también desde la antropología. Una obra actual, que nos recuerda qué México es cuna indiscutible de enteógenos y chamanismos en el mundo.",        
-        "tags": ["medicina", "amazonía", "terapia"],
+        "tags": ["mitos", "medicinas-visionarias", "méxico", "chamanismo"],
         "imagen": "img/visiones.jpg"
     },
     {
@@ -50,7 +50,8 @@
         "paginas": 288,
         "categoria": "Otros",
         "resumenCorto": "Desde los confines de la antropología sudamericana Eduardo V. De Castro nos asesta un par de cachetazos (moderados pero certeros) para dislocar nuestra mirada y, al menos por momentos, percibir el mundo como un-Otro (Otro mundo, Otro ser). ",
-        "resumenCompleto": "Desde los confines de la antropología sudamericana Eduardo V. De Castro nos asesta un par de cachetazos (moderados pero certeros) para dislocar nuestra mirada y, al menos por momentos, percibir el mundo como un-Otro (Otro mundo, Otro ser). <br>En lenguaje coloquial, sin el rigor expositivo de una tesis, pero en un nivel tan intensivo de conversación que arrollaría a cualquier filosofía de sobremesa, se nos presentan entremezclados, mestizados, conceptos de diversas áreas, a la vez que un lenguaje propio que intenta rescatar “el punto de vista sobre el punto de vista” que tienen lxs indígenas americanos.",        "tags": ["medicina", "amazonía", "terapia"],
+        "resumenCompleto": "Desde los confines de la antropología sudamericana Eduardo V. De Castro nos asesta un par de cachetazos (moderados pero certeros) para dislocar nuestra mirada y, al menos por momentos, percibir el mundo como un-Otro (Otro mundo, Otro ser). <br>En lenguaje coloquial, sin el rigor expositivo de una tesis, pero en un nivel tan intensivo de conversación que arrollaría a cualquier filosofía de sobremesa, se nos presentan entremezclados, mestizados, conceptos de diversas áreas, a la vez que un lenguaje propio que intenta rescatar “el punto de vista sobre el punto de vista” que tienen lxs indígenas americanos.",        
+        "tags": ["sudamerica", "amazonía", "filosofia", "perspectivismo-amerindio"],
         "imagen": "img/jaguar.png"
     },
     {
@@ -60,7 +61,8 @@
         "paginas": 260,
         "categoria": "Otros",
         "resumenCorto": "Una versión de la evolución del cerebro y la conciencia del homo sapiens, vista a través de las drogas que consumimos. Pone como protagonista al consumo de enteógenos (y particularmente, los hongos psilocybes) a lo largo de la historia humana.",
-        "resumenCompleto": "Una versión de la evolución del cerebro y la conciencia del homo sapiens, vista a través de las drogas que consumimos. Pone como protagonista al consumo de enteógenos (y particularmente, los hongos psilocybes) a lo largo de la historia humana. <br><b>Terence Mckenna</b> fue etnobotánico, disertante, activista y probablemente uno de los psiconautas más experimentados. Sus reflexiones desbordan lo estrictamente farmacológico y los usos rituales de distintas etnias, alcanzando un grado de análisis filosófico y cultural.",        "tags": ["medicina", "amazonía", "terapia"],
+        "resumenCompleto": "Una versión de la evolución del cerebro y la conciencia del homo sapiens, vista a través de las drogas que consumimos. Pone como protagonista al consumo de enteógenos (y particularmente, los hongos psilocybes) a lo largo de la historia humana. <br><b>Terence Mckenna</b> fue etnobotánico, disertante, activista y probablemente uno de los psiconautas más experimentados. Sus reflexiones desbordan lo estrictamente farmacológico y los usos rituales de distintas etnias, alcanzando un grado de análisis filosófico y cultural.",        
+        "tags": ["hongos", "mono-drogado", "evolucion", "etnobotanica"],
         "imagen": "img/manjar.jpg"
     },
     {
@@ -70,7 +72,8 @@
         "paginas": 362,
         "categoria": "Otros",
         "resumenCorto": "Conjunto de entrevistas, ensayos, artículos e hipótesis sobre la evolución humana, estados de conciencia, realidad virtual, ovnis y extraterrestres, hongos y tribus ayahuasqueras, entre otros tópicos, abordados por el vocero del underground psicodélico.",
-        "resumenCompleto": "Conjunto de entrevistas, ensayos, artículos e hipótesis sobre la evolución humana, estados de conciencia, realidad virtual, ovnis y extraterrestres, hongos y tribus ayahuasqueras, entre otros tópicos, abordados por el vocero del underground psicodélico.",        "tags": ["medicina", "amazonía", "terapia"],
+        "resumenCompleto": "Conjunto de entrevistas, ensayos, artículos e hipótesis sobre la evolución humana, estados de conciencia, realidad virtual, ovnis y extraterrestres, hongos y tribus ayahuasqueras, entre otros tópicos, abordados por el vocero del underground psicodélico.",        
+        "tags": ["hongos", "ovnis", "ayahuasca"],
         "imagen": "img/nuevaconsciencia.png"
     },
     {
@@ -80,7 +83,8 @@
         "paginas": 344,
         "categoria": "Otros",
         "resumenCorto": "Ha llegado la hora de descubrir el oculto y fascinante mundo de los hongos, formas de vida extrañas y maravillosas que nos obligan a repensar el funcionamiento de la vida. ",
-        "resumenCompleto": "Ha llegado la hora de descubrir el oculto y fascinante mundo de los hongos, formas de vida extrañas y maravillosas que nos obligan a repensar el funcionamiento de la vida. <br>Al proporcionar a los humanos pan, alcohol y medicamentos, han cambiado la historia de nuestra especie, mientras que su capacidad para digerir plástico, explosivos, pesticidas y petróleo crudo se aplica en el campo de las nuevas tecnologías.",        "tags": ["medicina", "amazonía", "terapia"],
+        "resumenCompleto": "Ha llegado la hora de descubrir el oculto y fascinante mundo de los hongos, formas de vida extrañas y maravillosas que nos obligan a repensar el funcionamiento de la vida. <br>Al proporcionar a los humanos pan, alcohol y medicamentos, han cambiado la historia de nuestra especie, mientras que su capacidad para digerir plástico, explosivos, pesticidas y petróleo crudo se aplica en el campo de las nuevas tecnologías.",        
+        "tags": ["hongos"],
         "imagen": "img/redoculta.jpg"
     },
     {
@@ -90,7 +94,7 @@
         "paginas": 344,
         "categoria": "Otros",
         "resumenCorto": "Un ensayo que expone la complejidad del fenómeno del chamanismo amazónico en una lectura ligera, atrapante y brillantemente comprensible. Lo consideramos uno de los escritos que más claridad hecha sobre las cosmovisiones y saberes ancestrales, a la luz de la ciencia moderna.",
-        "resumenCompleto": "Un ensayo que expone la complejidad del fenómeno del chamanismo amazónico en una lectura ligera, atrapante y brillantemente comprensible. Lo consideramos uno de los escritos que más claridad hecha sobre las cosmovisiones y saberes ancestrales, a la luz de la ciencia moderna. <br>El autor establece notables conexiones entre el conocimiento detentado por los pueblos indígenas y los hallazgos de la biología molecular. Escrito con notable meticulosidad, apasionamiento, y sinceridad, resultando una lectura sumamente recomendable.",        "tags": ["medicina", "amazonía", "terapia"],
+        "resumenCompleto": "Un ensayo que expone la complejidad del fenómeno del chamanismo amazónico en una lectura ligera, atrapante y brillantemente comprensible. Lo consideramos uno de los escritos que más claridad hecha sobre las cosmovisiones y saberes ancestrales, a la luz de la ciencia moderna. <br>El autor establece notables conexiones entre el conocimiento detentado por los pueblos indígenas y los hallazgos de la biología molecular. Escrito con notable meticulosidad, apasionamiento, y sinceridad, resultando una lectura sumamente recomendable.",        "tags": ["ayahuasca", "amazonía", "chamanismo"],
         "imagen": "img/redoculta.jpg"
     },
     {
@@ -101,7 +105,7 @@
         "categoria": "Otros",
         "resumenCorto": "Cabras cafeinómanas, renos micófilos, pájaros ebrios, hormigas adictas al néctar... la vida salvaje ofrece numerosos ejemplos de animales que buscan y consumen sustancias psicoactivas en su hábitat.",
         "resumenCompleto": "Cabras cafeinómanas, renos micófilos, pájaros ebrios, hormigas adictas al néctar... la vida salvaje ofrece numerosos ejemplos de animales que buscan y consumen sustancias psicoactivas en su hábitat. <br> <b>Giorgio Samorini</b> explora este fenómeno y sugiere que, lejos de ser exclusivo del hombre, el deseo de experimentar estados alterados de conciencia es compartido por algunos animales de forma natural y deliberada.",
-        "tags": ["medicina", "amazonía", "terapia"],
+        "tags": ["animales", "drogologia"],
         "imagen": "img/animalesdroga.jpg"
     },
     {
@@ -112,7 +116,7 @@
         "categoria": "Otros",
         "resumenCorto": "<b>Fernando Payagueje</b> es el último de los grandes sabios de un pueblo indígena que fue famoso por el poder de sus jefes religiosos.",
         "resumenCompleto": "<b>Fernando Payagueje</b> es el último de los grandes sabios de un pueblo indígena que fue famoso por el poder de sus jefes religiosos. <br> En efecto, entre los secoyas que viven en Ecuador es el representante final de una saga de dirigentes que atesoraban los profundos secretos de la auténtica vida: contacto con los espíritus celestes, dominio de las fuerzas del mal, memoria de las tradiciones más antiguas, potencia para las curaciones. <br> En este libro encontramos detalladas narraciones de su protagonista para describir las prácticas por las que han de pasar lxs legítimxs chamanxs.",
-        "tags": ["medicina", "amazonía", "terapia"],
+        "tags": ["chamanismo", "ayahuasca"],
         "imagen": "img/yage.png"
     },
     {
@@ -123,7 +127,7 @@
         "categoria": "Otros",
         "resumenCorto": "María Sabina, nacida a fines del siglo XIX en Huautla de Jiménez, descubrió por sí misma el poder curativo de ciertos hongos, los niños santos, que, mediante visiones luminosas, le transmitieron el conocimiento milenario que ella habría de emplear para curar a cientos de personas sufrientes. <br> ",
         "resumenCompleto": "María Sabina, nacida a fines del siglo XIX en Huautla de Jiménez, descubrió por sí misma el poder curativo de ciertos hongos, los niños santos, que, mediante visiones luminosas, le transmitieron el conocimiento milenario que ella habría de emplear para curar a cientos de personas sufrientes. <br> A mitad del siglo xx, su fama se disparó fuera de su entorno nmediato debido a su encuentro con Robert Gordon Wasson, exitoso banquero que habría de convertirse en el pionero de la etnomicología; a partir de ahí, Huautla se volvió lugar de peregrinación de hippies, científicos, escritores, gente en pos de un estado alterado de conciencia, y durante su vejez María Sabina padeció el activo rechazo de sus vecinos por haber compartido sus saberes.<br> En este libro, una autobiografia oral de Maria Sabina, Alvaro Estrada ofrece el irrepetible testimonio de una forma de entender la salud, las relaciones entre la naturaleza y el caracter humano, entre lo terrenal y lo trascendente.",
-        "tags": ["medicina", "amazonía", "terapia"],
+        "tags": ["hongos", "visiones", "chamanismo"],
         "imagen": "img/mariasabina.png"
     },
     {
@@ -134,7 +138,7 @@
   	    "categoria": "Otros",
         "resumenCorto": "Consideramos propicio incluir esta obra en el catálogo, dado que si bien entendemos que se trata más bien de una ficción (a pesar de haber sido el trabajo de tesis, muy objetado, con el cual Castañeda obtuvo el título de antropólogo) su espíritu y su aporte cultural para con el interés por las plantas visionarias nos parece innegable.<br> Una bella obra para iniciarse en las lecturas enteogénicas.",
         "resumenCompleto": "Consideramos propicio incluir esta obra en el catálogo, dado que si bien entendemos que se trata más bien de una ficción (a pesar de haber sido el trabajo de tesis, muy objetado, con el cual Castañeda obtuvo el título de antropólogo) su espíritu y su aporte cultural para con el interés por las plantas visionarias nos parece innegable.<br> Una bella obra para iniciarse en las lecturas enteogénicas.",
-        "tags": ["medicina", "amazonía", "terapia"],
+        "tags": ["ficcion", "plantas-visionarias"],
         "imagen": "img/donjuan.jpg"
     },
     {
@@ -145,7 +149,7 @@
   	    "categoria": "Otros",
         "resumenCorto": "Un clásico que no requiere demasiada presentación. La novelesca experiencia del escritor Inglés Aldous Huxley con cristales de Mescalina (compuesto activo de cactus como el San Pedro y Peyote) supervisado por el psiquiatra Humpry Osmond (quien acuñara el término psicodélico). <br> Libro indispensable que no puede faltar en ninguna biblioteca psicodélica.",
         "resumenCompleto": "Un clásico que no requiere demasiada presentación. La novelesca experiencia del escritor Inglés Aldous Huxley con cristales de Mescalina (compuesto activo de cactus como el San Pedro y Peyote) supervisado por el psiquiatra Humpry Osmond (quien acuñara el término psicodélico). <br> Libro indispensable que no puede faltar en ninguna biblioteca psicodélica.",
-        "tags": ["medicina", "amazonía", "terapia"],
+        "tags": ["san-pedro", "peyote", "psicodelia"],
         "imagen": "img/puertas.jpg"
     },
     {
@@ -156,7 +160,7 @@
   	    "categoria": "Otros",
         "resumenCorto": "Historia del descubrimiento del LSD y el impacto que esto tuvo en distintos niveles: cultural, académico, médico, artístico y filosófico. Escrita por las mismas manos que sintetizaron la molécula.",
         "resumenCompleto": "Historia del descubrimiento del LSD y el impacto que esto tuvo en distintos niveles: cultural, académico, médico, artístico y filosófico. Escrita por las mismas manos que sintetizaron la molécula.",
-        "tags": ["medicina", "amazonía", "terapia"],
+        "tags": ["LSD", "historia"],
         "imagen": "img/lsd.jpg"
     },
     {
