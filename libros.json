@@ -14,12 +14,12 @@
         "id": "plantas-medicina",
         "titulo": "Plantas Medicina y Clínica Terapéutica",
         "autor": "Jacques Mabit",
-        "paginas": 0,
+        "paginas": 136,
         "categoria": "Títulos Originales",
         "resumenCorto": "En este libro, avalado y reconocido por el autor, hay distintos artículos seleccionados por la institución Takiwasi, que dan cuenta de la complejidad y riqueza de la medicina tradicional amazónica, y de su potencial terapéutico en nuestra cultura.",
         "resumenCompleto": "En este libro, avalado y reconocido por el autor, hay distintos artículos seleccionados por la institución Takiwasi, que dan cuenta de la complejidad y riqueza de la medicina tradicional amazónica, y de su potencial terapéutico en nuestra cultura.<br> <b>Jacques Mabit</b> es un médico francés, fundador del Centro Terapéutico Takiwasi, para el tratamiento y rehabilitación de toxicómanxs. Allí se llevan a cabo terapias y procesos de trabajo interior con técnicas de psicoterapia occidental y de medicina amazónica, con uso de plantas visionarias. Jacques está hace más de 30 años en la selva, donde se inició y aprendió guiado por maestros curanderos.",
         "tags": ["takiwasi", "amazonía", "terapia", "plantas-visionarias"],
-        "imagen": "img/default.jpg"
+        "imagen": "img/serpiente.png"
     },
     {
         "id": "articulos",
@@ -30,18 +30,18 @@
         "resumenCorto": "Segunda recopilación de artículos del Dr. Mabit, seleccionados esta vez por nuestra propia editorial, en función de acercar una comprensión etnobotánica a la vez que antropológica, psicológica y espiritual del uso de Plantas Maestras, Sagradas y Enteógenas.",
         "resumenCompleto": "Segunda recopilación de artículos del Dr. Mabit, seleccionados esta vez por nuestra propia editorial, en función de acercar una comprensión etnobotánica a la vez que antropológica, psicológica y espiritual del uso de Plantas Maestras, Sagradas y Enteógenas. <br> En los textos se revisita el uso del Cannabis, la Coca, el Tabaco y especialmente el Ayahuasca, con una mirada lúcida, crítica y social.",        
         "tags": ["takiwasi", "amazonía", "terapia", "plantas-visionarias", "etnobotánica", "cannabis", "coca", "tabaco", "ayahuasca"],
-        "imagen": "img/default.jpg"
+        "imagen": "img/plantasmedicina.jpeg"
     },
     {
         "id": "ensayos-alterados",
-        "titulo": "Ensayos Alternativos de Conciencia",
+        "titulo": "֍ Ensayos Alternativos de Conciencia",
         "autor": "Antología del Congreso Universitario de Sustancias Psicoactivas (UNAM)",
         "paginas": 219,
         "categoria": "Títulos Originales",
         "resumenCorto": "Tesis doctoral sobre mitos y medicinas visionarias. Esta obra es oriunda de México, publicada en 2019 por Lunaria Ediciones, y llega a nuestras manos en una suerte de intercambio editorial.",
         "resumenCompleto": "Tesis doctoral sobre mitos y medicinas visionarias. Esta obra es oriunda de México, publicada en 2019 por Lunaria Ediciones, y llega a nuestras manos en una suerte de intercambio editorial. Reúne una selección de ponencias destacadas, realizadas en el Congreso sobre Sustancias Psicoactivas de la UNAM, organizada por el grupo de investigación multidisciplinar ViaSynapsis.<br> Se aborda el fenómeno de las drogas y enteógenos trasversalmente, desde lo político, la filosofía, los nuevos paradigmas científicos, médicos y también desde la antropología. Una obra actual, que nos recuerda qué México es cuna indiscutible de enteógenos y chamanismos en el mundo.",        
         "tags": ["mitos", "medicinas-visionarias", "méxico", "chamanismo"],
-        "imagen": "img/default.jpg"
+        "imagen": "img/ensayos.jpg"
     },
     {
         "id": "jaguar",
@@ -95,7 +95,7 @@
         "categoria": "Otros",
         "resumenCorto": "Un ensayo que expone la complejidad del fenómeno del chamanismo amazónico en una lectura ligera, atrapante y brillantemente comprensible. Lo consideramos uno de los escritos que más claridad hecha sobre las cosmovisiones y saberes ancestrales, a la luz de la ciencia moderna.",
         "resumenCompleto": "Un ensayo que expone la complejidad del fenómeno del chamanismo amazónico en una lectura ligera, atrapante y brillantemente comprensible. Lo consideramos uno de los escritos que más claridad hecha sobre las cosmovisiones y saberes ancestrales, a la luz de la ciencia moderna. <br>El autor establece notables conexiones entre el conocimiento detentado por los pueblos indígenas y los hallazgos de la biología molecular. Escrito con notable meticulosidad, apasionamiento, y sinceridad, resultando una lectura sumamente recomendable.",        "tags": ["ayahuasca", "amazonía", "chamanismo"],
-        "imagen": "img/redoculta.jpg"
+        "imagen": "img/serpientecosmica.png"
     },
     {
         "id": "animales",
@@ -161,7 +161,7 @@
         "resumenCorto": "Historia del descubrimiento del LSD y el impacto que esto tuvo en distintos niveles: cultural, académico, médico, artístico y filosófico. Escrita por las mismas manos que sintetizaron la molécula.",
         "resumenCompleto": "Historia del descubrimiento del LSD y el impacto que esto tuvo en distintos niveles: cultural, académico, médico, artístico y filosófico. Escrita por las mismas manos que sintetizaron la molécula.",
         "tags": ["LSD", "historia"],
-        "imagen": "img/lsd.jpg"
+        "imagen": "img/lsd.png"
     },
     {
         "id": "enteogenos-ciencia",
@@ -183,7 +183,7 @@
         "resumenCorto": "Lectura tan necesaria como controversial en materia de política sobre drogas. <b>Thomas Szasz</b>, psiquiatra referente de la anti-psiquiatría, pone en jaque permanentemente los argumentos prohibicionistas.",
         "resumenCompleto": "Lectura tan necesaria como controversial en materia de política sobre drogas. <b>Thomas Szasz</b>, psiquiatra referente de la anti-psiquiatría, pone en jaque permanentemente los argumentos prohibicionistas. <br> No conforme con abatir la defensa de la ilegalidad, Szasz también pone en tela de juicio la voluntad de regulación estatal de las sustancias psicoactivas. De un solo golpe, el autor barre tanto los argumentos a favor como en contra de la legalización, abogando por devolverle al sujeto la capacidad de elección y decisión libre, a conciencia, de lo que quiera consumir, sin intermediarios.",
         "tags": ["medicina", "amazonía", "terapia"],
-        "imagen": "img/default.jpg"
+        "imagen": "img/derecho.bmp"
     },
     {
         "id": "pharmacophilia",
@@ -194,7 +194,7 @@
         "resumenCorto": "Otro manifiesto de la erudición enteognósica del químico Ott (leyenda viva, aprendiz y colaborador de pioneros como Wasson, Hofmann, Schultes y Shulgin).",
         "resumenCompleto": "Otro manifiesto de la erudición enteognósica del químico Ott (leyenda viva, aprendiz y colaborador de pioneros como Wasson, Hofmann, Schultes y Shulgin). <br> Pone en disputa, fiel a su estilo ácido, muchos de los lugares comunes y las nociones preconcebidas acerca de la psicodelia y la psiconáutica. Navegando por las olas de la etno-farmacobotánica, el chamanismo y los estados de consciencia alterada, empezando por cuestionar la idea de Baudelaire de 'droga' como 'paraíso artificial'. Abundante en notas, citas, y documentación científica de distintas áreas, esta obra es otra imprescindible en la biblioteca del ente lector.",
         "tags": ["medicina", "amazonía", "terapia"],
-        "imagen": "img/default.jpg"
+        "imagen": "img/pharmacofilia.jpg"
     },
     {
         "id": "teonanacatl",
@@ -227,6 +227,6 @@
         "resumenCorto": "Un libro que no habla técnicamente de enteógenos, pero que se refiere a otros estados de conciencia y aporta interesantes elementos paradigmáticos. <br>",
         "resumenCompleto": "Un libro que no habla técnicamente de enteógenos, pero que se refiere a otros estados de conciencia y aporta interesantes elementos paradigmáticos. <br> Es un libro cuyo espíritu místico-mágico-poético se hace rápidamente manifiesto, pero que sorprende hablando de ciencia y técnica. Asistimos al matrimonio entre el simbolismo y el racionalismo, el cálculo y el mito, los sacrificios rituales y los experimentos de laboratorio.",
         "tags": ["medicina", "amazonía", "terapia"],
-        "imagen": "img/default.jpg"
+        "imagen": "img/brujos.jpg"
     }
 ]

@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     ) {
       // Si el texto corto es suficiente, no mostramos el botón "Ver más"
       div.innerHTML = `
-                <img src="${libro.imagen}" alt="${libro.titulo}" height="200px">
+                <img src="${libro.imagen}" alt="${libro.titulo}" height="250px">
                 <h3>${libro.titulo}</h3>
                 <p><strong>${libro.autor}</strong> - ${
         libro.paginas
@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     } else {
       // Si hay un texto completo, mostramos el botón "Ver más"
       div.innerHTML = `
-                <img src="${libro.imagen}" alt="${libro.titulo}" height="200px">
+                <img src="${libro.imagen}" alt="${libro.titulo}" height="250px">
                 <h3>${libro.titulo}</h3>
                 <p><strong>${libro.autor}</strong> - ${
         libro.paginas
