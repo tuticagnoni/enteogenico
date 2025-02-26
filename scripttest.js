@@ -12,9 +12,9 @@ document.addEventListener("DOMContentLoaded", async function () {
   const buscador = document.createElement("input");
   buscador.type = "text";
   buscador.id = "busqueda";
-  buscador.classList.add("buscador-personalizado"); // Clase para personalizar el estilo
+  buscador.classList.add("buscador-personalizado");
   buscador.placeholder = "Buscar un libro...";
-  container.parentNode.insertBefore(buscador, container); // Insertar buscador antes de las tarjetas
+  container.parentNode.insertBefore(buscador, container);
 
   // Cargar datos del archivo JSON
   const response = await fetch("libros.json");
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
   // Generar listas y tarjetas
   libros.forEach((libro) => {
-    // Añadir a la lista de títulos (Títulos Originales u Otros)
+    // Añadir a la lista de títulos
     const li = document.createElement("li");
     li.classList.add("libro");
     li.innerHTML = `<a href="#${libro.id}">${libro.titulo} • ${libro.autor}</a>`;
@@ -41,43 +41,30 @@ document.addEventListener("DOMContentLoaded", async function () {
     div.setAttribute("data-autor", libro.autor.toLowerCase());
     div.setAttribute("data-tags", libro.tags.join(", ").toLowerCase());
 
+    const paginasYAnio = `${libro.paginas} páginas • ${libro.añoPublicacion}`;
+
     // Verificar si el texto corto y completo son iguales o si no hay resumenCompleto
-    if (
-      !libro.resumenCompleto ||
-      libro.resumenCorto === libro.resumenCompleto
-    ) {
-      // Si el texto corto es suficiente, no mostramos el botón "Ver más"
+    if (!libro.resumenCompleto || libro.resumenCorto === libro.resumenCompleto) {
       div.innerHTML = `
                 <img src="${libro.imagen}" alt="${libro.titulo}" height="250px">
                 <h3>${libro.titulo}</h3>
-                <p><strong>${libro.autor}</strong> - ${
-        libro.paginas
-      } páginas</p>
+                <p><strong>${libro.autor}</strong> - ${paginasYAnio}</p>
                 <p class="resumen">
                     <span>${libro.resumenCorto}</span>
                 </p>
-                <div class="tags">${libro.tags
-                  .map((tag) => `<span>#${tag}</span>`)
-                  .join(" ")}</div>
+                <div class="tags">${libro.tags.map((tag) => `<span>#${tag}</span>`).join(" ")}</div>
             `;
     } else {
-      // Si hay un texto completo, mostramos el botón "Ver más"
       div.innerHTML = `
                 <img src="${libro.imagen}" alt="${libro.titulo}" height="250px">
                 <h3>${libro.titulo}</h3>
-                <p><strong>${libro.autor}</strong> - ${
-        libro.paginas
-      } páginas</p>
+                <p><strong>${libro.autor}</strong> - ${paginasYAnio}</p>
                 <p class="resumen">
                     <span class="resumen-corto">${libro.resumenCorto}</span>
-                    <span class="resumen-completo" style="display: none;">${
-                      libro.resumenCompleto
-                    }</span>
+                    <span class="resumen-completo" style="display: none;">${libro.resumenCompleto}</span>
                     <button class="btn-ver-mas">Ver más</button>
                 </p>
-                <div class="tags">${libro.tags
-                  .map((tag) => `<span>#${tag}</span>`)
-                  .join(" ")}</div>
+                <div class="tags">${libro.tags.map((tag) => `<span>#${tag}</span>`).join(" ")}</div>
             `;
     }
 
@@ -85,8 +72,7 @@ document.addEventListener("DOMContentLoaded", async function () {
   });
 
   // Funcionalidad del botón "Ver más"
-  const botones = document.querySelectorAll(".btn-ver-mas");
-  botones.forEach((boton) => {
+  document.querySelectorAll(".btn-ver-mas").forEach((boton) => {
     boton.addEventListener("click", function () {
       const resumenCorto = this.previousElementSibling.previousElementSibling;
       const resumenCompleto = this.previousElementSibling;
@@ -106,14 +92,11 @@ document.addEventListener("DOMContentLoaded", async function () {
   // Funcionalidad del buscador
   buscador.addEventListener("input", function () {
     const filtro = normalizeText(buscador.value.toLowerCase().trim());
-    const libros = document.querySelectorAll(".detalle-libros .libro");
-
-    libros.forEach((libro) => {
+    document.querySelectorAll(".detalle-libros .libro").forEach((libro) => {
       const titulo = normalizeText(libro.getAttribute("data-titulo"));
       const autor = normalizeText(libro.getAttribute("data-autor"));
       const tags = normalizeText(libro.getAttribute("data-tags"));
 
-      // Asegurarnos de que el filtro coincida con cualquiera de los datos
       if (
         titulo.includes(filtro) ||
         autor.includes(filtro) ||

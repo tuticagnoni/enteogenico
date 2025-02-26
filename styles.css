@@ -32,8 +32,6 @@ body {
     margin: 0 auto;
 }
 
-
-
 .nav-links ul {
     list-style: none;
     display: flex;
@@ -65,7 +63,7 @@ body {
 /* Responsivo para menú: columna en pantallas pequeñas */
 @media (max-width: 768px) {
     .menu-container {
-        flex-direction: column;
+
         text-align: center;
         gap: 10px;
     }
@@ -151,10 +149,12 @@ body {
     color: var(--main-color);
     display: block;
     margin-bottom: 5px;
+    font-weight: 600;
 }
 
 .lista-libros a:hover {
     color: var(--accent-color);
+    font-weight: 700;
 }
 
 /* Buscador */
@@ -171,7 +171,7 @@ input {
 
 .buscador-personalizado {
     display: block;
-    width: 100%;
+    width: 80%;
     max-width: 400px;
     margin: 20px auto;
     padding: 10px 15px;
@@ -221,6 +221,9 @@ input {
     .libro {
         width: 100%; /* Una columna completa */
     }
+    .resumen { 
+        width: 100%;
+    }
 }
 
 /* Resumen del libro */
@@ -229,6 +232,7 @@ input {
     line-height: 1.5;
     font-size: 14px;
     color: var(--text-color);
+    width: 50%;
 }
 
 .resumen .btn-ver-mas {
@@ -246,4 +250,11 @@ input {
 
 .resumen .btn-ver-mas:hover {
     background-color: var(--accent-color);
+}
+
+
+@media (max-width: 768px) {
+    .resumen { 
+        width: 100%;
+    }
 }
