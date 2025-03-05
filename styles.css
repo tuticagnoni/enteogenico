@@ -232,7 +232,7 @@ input {
     line-height: 1.5;
     font-size: 14px;
     color: var(--text-color);
-    width: 50%;
+    width: 100%;
 }
 
 .resumen .btn-ver-mas {
