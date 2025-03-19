@@ -13,6 +13,7 @@ body {
     box-sizing: border-box;
     overflow-x: hidden; /* Elimina scroll horizontal no deseado */
     background-color: var(--background-color);
+    color: var(--text-color)
 }
 
 /* Menú */
@@ -35,20 +36,22 @@ body {
 .nav-links ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    flex-direction: column;
+    gap: 10px;
     margin: 0;
     padding: 0;
 }
 
 .nav-links ul li a {
     text-decoration: none;
-    color: var(--text-color);
+    font-size: 25px;
+    color: var(--accent-color);
     font-weight: bolder;
     transition: color 0.3s ease;
 }
 
 .nav-links ul li a:hover {
-    color: var(--accent-color);
+    color: var(--main-color);
 }
 
 .social img {
@@ -75,7 +78,7 @@ body {
 }
 
 /* Footer */
-.footer {
+/* .footer {
     background-color: var(--background-color);
     color: var(--text-color);
     padding: 20px 0;
@@ -112,7 +115,94 @@ body {
 
 .footer-text p:hover {
     color: var(--accent-color);
+} */
+
+footer {
+    background-color: #222;
+    color: var(--text-color);
+    padding: 20px;
 }
+
+.footer-container {
+    display: flex;
+    justify-content: space-between; /* Separa las dos columnas en desktop */
+    align-items: flex-start;
+    max-width: 900px;
+    margin: auto;
+}
+
+.footer-text, .footer-contact {
+    width: 45%; /* Controla el ancho de cada columna */
+    text-align: left;
+}
+
+/* Línea separadora con desarrollador e Instagram */
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: 10px auto 0;
+    padding-top: 10px;
+    border-top: 1px solid #555;
+}
+
+.instagram-icon img {
+    width: 25px; /* Tamaño pequeño del logo */
+}
+
+.footer-contact p a {
+color: var(--text-color);
+}
+.footer-contact p a:hover {
+    color: var(--accent-color);
+    }
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+    color: var(--text-color);
+}
+
+.footer-bottom a {
+    text-decoration: none;
+}
+
+.footer-bottom p:hover {
+    color: var(--accent-color);
+}
+
+
+
+/* 🔹 RESPONSIVE: Apilar en mobile */
+@media screen and (max-width: 600px) {
+    .footer-container {
+        flex-direction: column; /* Apila los elementos */
+        text-align: left;
+    }
+
+    .footer-text, .footer-contact {
+        width: 100%; /* Ocupa todo el ancho */
+        margin-bottom: 10px; /* Espaciado entre secciones */
+    }
+
+    .footer-bottom {
+        flex-direction: column; /* Apilar elementos */
+        align-items: center;
+        text-align: center;
+    }
+
+    .developer {
+        order: 2; /* Mueve el nombre del desarrollador al final */
+        margin-top: 10px;
+    }
+
+    .instagram-icon {
+        order: 1; /* Instagram arriba en mobile */
+    }
+}
+
+
 
 /* Listas de libros */
 .lista-libros {
