@@ -44,7 +44,38 @@
         </div>
     </header>
 
-    <main>
+    <section class="cool-section">
+        <div class="text-content">
+            <h2 class="fade-in">Bienvenidos a <br> Libros Enteogénicos</h2>
+            <p class="fade-in delay">
+                Descubre un mundo donde la droga es rica y buena. <br>Asi se ven nuestros libros:
+            </p>
+        </div>
+    
+        <div class="image-gallery">
+            <div class="image-item" onclick="openLightbox(0)">
+                <img src="img/animalesdroga.jpg" alt="Imagen 1">
+            </div>
+            <div class="image-item" onclick="openLightbox(1)">
+                <img src="img/ensayos.jpg" alt="Imagen 2">
+            </div>
+            <div class="image-item" onclick="openLightbox(2)">
+                <img src="img/redoculta.jpg" alt="Imagen 3">
+            </div>
+        </div>
+    </section>
+    
+    <!-- LIGHTBOX (Visor de imágenes en pantalla completa) -->
+    <div id="lightbox" class="lightbox">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <img class="lightbox-img" id="lightbox-img">
+        <div class="lightbox-controls">
+            <span class="prev" onclick="changeImage(-1)">&#10094;</span>
+            <span class="next" onclick="changeImage(1)">&#10095;</span>
+        </div>
+    </div>
+
+    <main id="libros">
         <section class="lista-libros">
             <h2>Títulos Originales</h2>
             <ul>
@@ -53,9 +84,12 @@
             <ul>
             </ul>
         </section>
-        <section class="detalle-libros" id="libros">
+        <section class="detalle-libros">
         </section>
     </main>
+
+   
+    
 
     <!-- Footer -->
     <!-- <footer class="footer" id="contacto">
@@ -86,7 +120,7 @@
     
             <!-- Columna derecha: Datos de contacto -->
             <div class="footer-contact">
-                <p>Pedidos y consultas » <a href="mailto:librosenteogenicos@gmail.com">librosenteogenicos@gmail.com</a></p>
+                <p>Pedidos y consultas » <a href="mailto:libros.enteogenicos@gmail.com">libros.enteogenicos@gmail.com</a></p>
             </div>
         </div>
     
